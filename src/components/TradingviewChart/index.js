@@ -100,11 +100,11 @@ const TradingViewChart = ({
         },
         grid: {
           horzLines: {
-            color: 'rgba(79, 216, 222, 0.5)',
+            color: 'rgba(254, 184, 74, 0.5)',
             visible: false,
           },
           vertLines: {
-            color: 'rgba(79, 216, 222, 0.5)',
+            color: 'rgba(254, 184, 74, 0.5)',
             visible: false,
           },
         },
@@ -142,7 +142,7 @@ const TradingViewChart = ({
             })
           : chart.addAreaSeries({
               topColor: '#FEB84A',
-              bottomColor: 'rgba(79, 216, 222, 0)',
+              bottomColor: 'rgba(254, 184, 74, 0)',
               lineColor: '#FEB84A',
               lineWidth: 3,
             })
